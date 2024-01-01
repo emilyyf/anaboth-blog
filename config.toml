@@ -3,15 +3,18 @@ languageCode = 'en-us'
 title = 'Anaboth'
 theme = 'hermit-v2'
 pygmentsCodefences = true
-pygmentsUseClasses = true
+pygmentsUseClasses = false
 copyright = 'CC BY-NC 4.0'
 enableEmoji = true
 
 [params.author]
   name = 'Emily F'
-  about = 'About emeily'
 
 [params]
+	dateform        = "Jan 2, 2006"
+	dateformShort   = "Jan 2"
+	dateformNum     = "2006-01-02"
+	dateformNumTime = "2006-01-02 15:04 -0700"
 	readTime = true
 	code_copy_button = true
 	relatedPosts = true
@@ -19,6 +22,7 @@ enableEmoji = true
 	homeSubtitle = 'Proudly fixing bugs by creating three new bugs :3'
 	footerCopyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 	scrollToTop = true
+	themeColor = '#593e57'
 	[[params.socialLinks]]
 		name = 'github'
 		url = 'https://github.com/emilyyf'
