@@ -1,0 +1,36 @@
+baseURL = 'https://anaboth.lgbt'
+languageCode = 'en-us'
+title = 'Anaboth'
+theme = 'hermit-v2'
+pygmentsCodefences = true
+pygmentsUseClasses = true
+copyright = 'CC BY-NC 4.0'
+enableEmoji = true
+
+[params.author]
+  name = 'Emily F'
+  about = 'About emeily'
+
+[params]
+	readTime = true
+	code_copy_button = true
+	relatedPosts = true
+	shareSocial = true
+	homeSubtitle = 'Proudly fixing bugs by creating three new bugs :3'
+	footerCopyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+	scrollToTop = true
+	[[params.socialLinks]]
+		name = 'github'
+		url = 'https://github.com/emilyyf'
+	[[params.socialLinks]]
+		name = 'mastodon'
+		url = 'https://queer.party/@anaboth'
+[menu]
+  [[menu.main]]
+    name = 'Posts'
+    url = 'posts/'
+    weight = 10
+  [[menu.main]]
+    name = 'About'
+    url = 'about/'
+    weight = 20
