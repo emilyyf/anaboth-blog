@@ -32,7 +32,7 @@ that you can append to your local key database, I just don't want their keys.
 
 Required softwares:
     - C compiler (no C knowledge required tho)
-    - git
+    - [git](https://repology.org/project/git/versions)
     - [refind](https://repology.org/project/refind/versions)
     - [mokutil](https://repology.org/project/mokutil/versions)
 
