@@ -23,18 +23,18 @@ so I re-did all the configuration and tried to keep notes to keep things as simp
 as possible
 
 Theres something that are important to keep in mind about this post:
-    - This will reset every key in your firmware, if you want to keep old keys, look at the resources as some teach how to do that
-    - There will be no dbx list (dbx is the known bad keys list)
-    - There will be no Microsoft keys added, if like me you're dual booting, you have to sign your Windows Boot Loader
+- This will reset every key in your firmware, if you want to keep old keys, look at the resources as some teach how to do that
+- There will be no dbx list (dbx is the known bad keys list)
+- There will be no Microsoft keys added, if like me you're dual booting, you have to sign your Windows Boot Loader
 
 There's a link to the Microsoft secure boot management article with links for all the microsoft's KEK and db keys
 that you can append to your local key database, I just don't want their keys.
 
 Required softwares:
-    - C compiler (no C knowledge required tho)
-    - [git](https://repology.org/project/git/versions)
-    - [refind](https://repology.org/project/refind/versions)
-    - [mokutil](https://repology.org/project/mokutil/versions)
+- C compiler (no C knowledge required tho)
+- [git](https://repology.org/project/git/versions)
+- [refind](https://repology.org/project/refind/versions)
+- [mokutil](https://repology.org/project/mokutil/versions)
 
 ## Let's start
 
